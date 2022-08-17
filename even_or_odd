@@ -1,0 +1,15 @@
+#defining a class
+class Students:
+#defining a function
+  def evenOrOdd(a):
+  #checking the conditions for even or odd
+    if(a%2==0):
+      print("even")#print statement if it is even 
+    else:
+      print("odd")#print statement if it is odd
+#taking the input from the user
+a=int(input("enter the number:"))
+#creating th eobject for the class student
+obj=student()
+#invoking the function 
+obj.evenOrOdd(a)
